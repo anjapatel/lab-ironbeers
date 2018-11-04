@@ -1,0 +1,25 @@
+<div class="beer">
+    {{#each beers}}
+    <img src="{{image_url}}" alt="Card image cap">
+    <h5>{{name}}</h5>
+    <p>{{tagline}} {{description}}</p>
+    {{else}}
+    <p>it's not working!</p>
+    {{/each}}
+</div>
+
+
+{{!-- <div class="card-deck">
+    <div class="card">
+        {{#each beers}}
+        <img class="card-img-top" src="{{image_url}}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{name}}</h5>
+            <small class="text-muted">{{tagline}}</small>
+            {{description}}
+        </div>
+        {{else}}
+        <p>it's not working!</p>
+        {{/each}}
+    </div>
+</div> --}}
